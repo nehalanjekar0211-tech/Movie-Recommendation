@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .movie {
+            border: 1px solid gray;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        iframe {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h2>🎯 Recommended Movies</h2>
+
+{% for m in movies %}
+<div class="movie">
+    <h3>{{ m.title }}</h3>
+    <p>Genre: {{ m.genre }}</p>
+    <p>⭐ Rating: {{ m.rating }}</p>
+
+    <iframe width="300" height="200" src="{{ m.trailer }}" allowfullscreen></iframe>
+
+    <br><br>
+    <a href="/like/{{ m.title }}">❤️ Like</a>
+</div>
+{% endfor %}
+
+<br>
+<a href="/search">⬅ Back to Search</a>
+
+</body>
+</html>
