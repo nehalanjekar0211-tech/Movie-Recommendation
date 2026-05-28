@@ -33,7 +33,7 @@ This project is designed to recommend movies to users by analyzing movie data an
 
  Project Preview :https://github.com/nehalanjekar0211-tech/Movie-Recommendation/blob/main/Screenshot%202026-05-28%20172449.png
  https://github.com/nehalanjekar0211-tech/Movie-Recommendation/blob/main/Screenshot%202026-05-28%20172624.png
-
+https://github.com/nehalanjekar0211-tech/Movie-Recommendation/blob/main/Screenshot%202026-05-28%20172645.png
  🔹 Conclusion
 
 This project demonstrates the practical implementation of machine learning and data analysis techniques to build an intelligent movie recommendation system.
