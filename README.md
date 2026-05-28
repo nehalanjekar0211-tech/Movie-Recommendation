@@ -32,7 +32,7 @@ This project is designed to recommend movies to users by analyzing movie data an
 🔹 Screenshots / Demo
 
  Project Preview :https://github.com/nehalanjekar0211-tech/Movie-Recommendation/blob/main/Screenshot%202026-05-28%20172449.png
- 
+ https://github.com/nehalanjekar0211-tech/Movie-Recommendation/blob/main/Screenshot%202026-05-28%20172624.png
 
  🔹 Conclusion
 
